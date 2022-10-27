@@ -8,8 +8,18 @@ class CharClass {
         // Get user input
         Scanner input = new Scanner(System.in);
         System.out.print("Character, please: ");
-        char ch = input.next // :(
-        
+        String c = input.nextLine();
+
+        // Check to see if the user only inputs a single character
+        // Quit the program if they do
+        if (c.length() != 1) {
+            System.out.println("Please input a single character. Try again.");
+            System.exit(1);
+        }
+
+        // Convert the single character string to a character
+        char ch = c.charAt(0);
+    
 
         if (Character.isUpperCase(ch)) {
             System.out.println(ch + " is an uppercase letter");
