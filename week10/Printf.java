@@ -8,6 +8,6 @@ class Printf {
 
         System.out.printf("Today is %s and there are %d students present\n", day, n);
         System.out.printf("The temperature today is %f\n", temp);
-        System.out.printf("The temperature today is %.7f\n", temp);
+        System.out.printf("The temperature today is %.100f\n", temp);
     }
 }
