@@ -14,7 +14,7 @@ class Add {
         int sum = 0;
 
         // Loop over the numbers 0 to upperBound
-        while (count < upperBound) {
+        while (count <= upperBound) {
             // Add the count to the sum
             sum += count;
 
