@@ -7,6 +7,7 @@ class Max {
         double i = 2.1;
         double j = 2.1;
 
+        // The method call
         double k = maxNumber(i, j);
 
         System.out.println("The max is " + k);
